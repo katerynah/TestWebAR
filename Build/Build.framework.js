@@ -11424,8 +11424,8 @@ function unityFramework(Module) {
       HEAPF64[eventStruct >> 3] = JSEvents.tick();
       HEAP32[(eventStruct + 8) >> 2] = e.screenX;
       HEAP32[(eventStruct + 12) >> 2] = e.screenY;
-      HEAP32[(eventStruct + 16) >> 2] = e.clientX + 50.0;
-      HEAP32[(eventStruct + 20) >> 2] = e.clientY + 50.0;
+      HEAP32[(eventStruct + 16) >> 2] = e.clientX + 100.0;
+      HEAP32[(eventStruct + 20) >> 2] = e.clientY + 100.0;
       HEAP32[(eventStruct + 24) >> 2] = e.ctrlKey;
       HEAP32[(eventStruct + 28) >> 2] = e.shiftKey;
       HEAP32[(eventStruct + 32) >> 2] = e.altKey;
